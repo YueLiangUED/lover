@@ -13,6 +13,48 @@ img{
 section:nth-child(1){
     background-color: #f8e1b0;
 }
+
+/*--MUSIC--*/
+.music {
+    display: none;
+    position: fixed;
+    top: .2rem;
+    left: .2rem;
+    z-index: 10;
+    width: .6rem;
+    height: .6rem;
+    background: url("../audio/music.svg") no-repeat;
+    background-size: cover;
+}
+.music audio {
+    display: none;
+}
+
+.music.move {
+    -webkit-animation: musicMove 1s linear 0s infinite both;
+    animation: musicMove 1s linear 0s infinite both;
+}
+@-webkit-keyframes musicMove {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes musicMove {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
 section:nth-child(1) header{
     box-sizing: border-box;
     padding: .3rem 0 0 6.13rem;
@@ -508,7 +550,25 @@ i{
     background-size: cover;
 }
 .tc>div:nth-child(1) div:nth-child(2) span:nth-child(3).tc2Icon{
-
+    left: .35rem;
+    top: .1rem;
+    width: 1.72rem;
+    height: 1.32rem;
+    background: url("../images/tc_2_icon.png") center no-repeat;
+    background-size: cover;
+}
+.tc>div:nth-child(1) div:nth-child(2) span:nth-child(3).tc3Icon{
+    top: .3rem;
+    width: 1.63rem;
+    height: .99rem;
+    background: url("../images/tc_3_icon.png") center no-repeat;
+    background-size: cover;
+}
+.tc>div:nth-child(1) div:nth-child(2) span:nth-child(3).tc4Icon{
+    width: .92rem;
+    height: 1.16rem;
+    background: url("../images/tc_4_icon.png") center no-repeat;
+    background-size: cover;
 }
 .tc>div:nth-child(2){
     position: absolute;

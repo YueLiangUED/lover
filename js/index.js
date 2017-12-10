@@ -416,4 +416,30 @@ $(function () {
     function hideMask(){
         $("#mask").hide();
     }
+
+    //->MUSIC
+    ~function () {
+        var musicMenu = document.getElementById('musicMenu'),
+            musicAudio = document.getElementById('musicAudio');
+
+        musicMenu.addEventListener('click', function () {
+            if (musicAudio.paused) {//->暂停
+                musicAudio.play();
+                musicMenu.className = 'music move';
+                return;
+            }
+            musicAudio.pause();
+            musicMenu.className = 'music';
+        }, false);
+
+        function controlMusic() {
+            musicAudio.volume = 0.1;
+            musicAudio.play();
+            musicAudio.addEventListener('canplay', function () {
+                musicMenu.style.display = 'block';
+                musicMenu.className = 'music move';
+            }, false);
+        }
+        window.setTimeout(controlMusic, 1000);
+    }();
 });
