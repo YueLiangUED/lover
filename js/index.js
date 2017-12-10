@@ -435,7 +435,6 @@ $(function () {
             }, false);
             document.addEventListener("touchstart",play, false);
         }
-        audioAutoPlay('musicAudio');
         var musicMenu = document.getElementById('musicMenu'),
             musicAudio = document.getElementById('musicAudio');
 
@@ -452,11 +451,13 @@ $(function () {
         function controlMusic() {
             musicAudio.volume = 0.1;
             musicAudio.play();
+            audioAutoPlay('musicAudio');
             musicAudio.addEventListener('canplay', function () {
                 musicMenu.style.display = 'block';
                 musicMenu.className = 'music move';
             }, false);
         }
-        window.setTimeout(controlMusic, 1000);
+        //window.setTimeout(controlMusic, 1000);
+        controlMusic();
     }();
 });
