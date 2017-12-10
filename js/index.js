@@ -450,8 +450,8 @@ $(function () {
 
         function controlMusic() {
             musicAudio.volume = 0.1;
-            musicAudio.play();
-            audioAutoPlay('musicAudio');
+            //musicAudio.play();
+            audioAutoPlay(musicAudio);
             musicAudio.addEventListener('canplay', function () {
                 musicMenu.style.display = 'block';
                 musicMenu.className = 'music move';
