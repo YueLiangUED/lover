@@ -435,7 +435,7 @@ $(function () {
             }, false);
             document.addEventListener("touchstart",play, false);
         }
-        audioAutoPlay('musicMenu');
+        audioAutoPlay('musicAudio');
         var musicMenu = document.getElementById('musicMenu'),
             musicAudio = document.getElementById('musicAudio');
 
