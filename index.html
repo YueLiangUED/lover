@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--loading-->
+<div id="loader">
+    <div id="loader_info"></div>
+</div>
+<!--MUSIC-->
+<div class="music" id="musicMenu">
+    <audio src="audio/music.mp3" preload="none" loop id="musicAudio"></audio>
+</div>
 <!--首页-->
 <section id="info">
     <header>
@@ -214,19 +222,11 @@
     </div>
     <div>领取更多福利</div>
 </div>
-<!--MUSIC-->
-<div class="music" id="musicMenu">
-    <audio src="audio/music.mp3" preload="none" loop id="musicAudio"></audio>
-</div>
-<!--loading-->
-<div id="loader">
-    <div id="loader_info"></div>
-</div>
 </body>
 </html>
 <script src="js/jquery-1.10.1.min.js"></script>
 <script src="js/imgLoader.js"></script>
-<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="js/jweixin-1.0.0.js"></script>
 <script>
     imgLoader(['images/box_1.png',
             'images/door.png',
