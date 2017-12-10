@@ -439,8 +439,6 @@ $(function () {
         audioAutoPlay('musicAudio');
     });
     ~function () {
-        console.log(wx);
-
         var musicMenu = document.getElementById('musicMenu'),
             musicAudio = document.getElementById('musicAudio');
 
