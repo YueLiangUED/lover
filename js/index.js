@@ -35,7 +35,6 @@ $(function () {
         $tc2NextBtn = $('.tc2NextBtn'),
         $tc3NextBtn = $('.tc3NextBtn'),
         $tc4Nextbtn = $('.tc4NextBtn');
-    $info.hide();
     //首页动画
     var timer1 = window.setTimeout(function () {
         $xin_1.fadeIn(function () {

@@ -11,6 +11,7 @@ img{
 }
 /*首页*/
 section#info{
+    display: none;
     background-color: #f8e1b0;
 }
 

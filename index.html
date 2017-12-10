@@ -7,73 +7,6 @@
     <title>北京移动</title>
     <link rel="stylesheet" href="css/reset.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-1.10.1.min.js"></script>
-    <script src="js/imgLoader.js"></script>
-    <script>
-        imgLoader(['audio/music.mp3',
-            'audio/music.svg',
-            'images/box_1.png',
-            'images/door.png',
-            'images/find_mobaihe.png',
-            'images/findWatch.png',
-            'images/firBtnBg.png',
-            'images/firPage_01.png',
-            'images/firPage_02.png',
-            'images/firPage_03.png',
-            'images/floor.png',
-            'images/girl_1.png',
-            'images/girl_2.png',
-            'images/girl_3.png',
-            'images/guang_1.png',
-            'images/guang_2.png',
-            'images/innerBg.png',
-            'images/lev_4_1.png',
-            'images/lev_4_1_act.png',
-            'images/lev_4_bg.png',
-            'images/man.png',
-            'images/open_tv_1.png',
-            'images/open_tv_2.png',
-            'images/photo.png',
-            'images/repeatBg.png',
-            'images/snow.png',
-            'images/sofa.png',
-            'images/sxin_1.png',
-            'images/sxin_2.png',
-            'images/sxt_1.png',
-            'images/tc5_Bg.png',
-            'images/tc_1_icon.png',
-            'images/tc_2_icon.png',
-            'images/tc_3_icon.png',
-            'images/tc_4_icon.png',
-            'images/tc_5Btn_1.png',
-            'images/tc_5Title.png',
-            'images/tc_btn.png',
-            'images/tc_flower.png',
-            'images/tcStar.png',
-            'images/tcTitle_1.png',
-            'images/tcTitle_2.png',
-            'images/title1-1.png',
-            'images/title2-1.png',
-            'images/title3-1.png',
-            'images/title4-1.png',
-            'images/title5-1.png',
-            'images/tv.png',
-            'images/tv_act.png',
-            'images/watch.png',
-            'images/xin.png',
-            'images/xin_1.png',
-            'images/xin_2.png'
-        ], function (percentage) {
-            var percentT = percentage * 100;
-            console.log(percentage);
-            $('#loader_info').html('Loading ' + (parseInt(percentT)) + '%');
-            //$('#loader__progress')[0].style.width = percentT + '%';
-            if (percentage == 1) {
-                $('#loader').remove();
-                $('#info').show();
-            }
-        });
-    </script>
 </head>
 <body>
 <!--loading-->
@@ -291,5 +224,72 @@
 </div>
 </body>
 </html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/imgLoader.js"></script>
+<script>
+    imgLoader(['audio/music.mp3',
+        'audio/music.svg',
+        'images/box_1.png',
+        'images/door.png',
+        'images/find_mobaihe.png',
+        'images/findWatch.png',
+        'images/firBtnBg.png',
+        'images/firPage_01.png',
+        'images/firPage_02.png',
+        'images/firPage_03.png',
+        'images/floor.png',
+        'images/girl_1.png',
+        'images/girl_2.png',
+        'images/girl_3.png',
+        'images/guang_1.png',
+        'images/guang_2.png',
+        'images/innerBg.png',
+        'images/lev_4_1.png',
+        'images/lev_4_1_act.png',
+        'images/lev_4_bg.png',
+        'images/man.png',
+        'images/open_tv_1.png',
+        'images/open_tv_2.png',
+        'images/photo.png',
+        'images/repeatBg.png',
+        'images/snow.png',
+        'images/sofa.png',
+        'images/sxin_1.png',
+        'images/sxin_2.png',
+        'images/sxt_1.png',
+        'images/tc5_Bg.png',
+        'images/tc_1_icon.png',
+        'images/tc_2_icon.png',
+        'images/tc_3_icon.png',
+        'images/tc_4_icon.png',
+        'images/tc_5Btn_1.png',
+        'images/tc_5Title.png',
+        'images/tc_btn.png',
+        'images/tc_flower.png',
+        'images/tcStar.png',
+        'images/tcTitle_1.png',
+        'images/tcTitle_2.png',
+        'images/title1-1.png',
+        'images/title2-1.png',
+        'images/title3-1.png',
+        'images/title4-1.png',
+        'images/title5-1.png',
+        'images/tv.png',
+        'images/tv_act.png',
+        'images/watch.png',
+        'images/xin.png',
+        'images/xin_1.png',
+        'images/xin_2.png'
+    ], function (percentage) {
+        var percentT = percentage * 100;
+        console.log(percentage);
+        $('#loader_info').html('Loading ' + (parseInt(percentT)) + '%');
+        //$('#loader__progress')[0].style.width = percentT + '%';
+        if (percentage == 1) {
+            $('#loader').remove();
+            $('#info').show();
+        }
+    });
+</script>
 <script src="js/jweixin-1.0.0.js"></script>
 <script src="js/index.js"></script>
