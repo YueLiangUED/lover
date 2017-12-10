@@ -457,7 +457,6 @@ $(function () {
                 musicMenu.className = 'music move';
             }, false);
         }
-        //window.setTimeout(controlMusic, 1000);
-        controlMusic();
+        window.setTimeout(controlMusic, 1000);
     }();
 });
