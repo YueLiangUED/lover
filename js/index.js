@@ -425,7 +425,7 @@ $(function () {
             var audio = document.getElementById(id),
                 play = function(){
                     audio.play();
-                    document.removeEventListener("touchstart",play, false);
+                    //document.removeEventListener("touchstart",play, false);
                 };
             audio.play();
             document.addEventListener("WeixinJSBridgeReady", function () {
@@ -434,7 +434,7 @@ $(function () {
             document.addEventListener('YixinJSBridgeReady', function() {
                 play();
             }, false);
-            document.addEventListener("touchstart",play, false);
+            //document.addEventListener("touchstart",play, false);
         }
         audioAutoPlay('musicAudio');
     });
@@ -460,7 +460,6 @@ $(function () {
                 musicMenu.className = 'music move';
             }, false);
         }
-        //window.setTimeout(controlMusic, 1000);
-        controlMusic();
+        window.setTimeout(controlMusic, 1000);
     }();
 });
