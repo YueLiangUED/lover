@@ -417,11 +417,10 @@ $(function () {
     }
 
     //->MUSIC
-    ~function () {
-        console.log(wx);
-        wx.ready(function () {
-            audioAutoPlay('musicAudio');
-        });
+    wx.config({
+        debug: false
+    });
+    wx.ready(function () {
         function audioAutoPlay(id){
             var audio = document.getElementById(id),
                 play = function(){
@@ -437,6 +436,10 @@ $(function () {
             }, false);
             document.addEventListener("touchstart",play, false);
         }
+        audioAutoPlay('musicAudio');
+    });
+    ~function () {
+        console.log(wx);
 
         var musicMenu = document.getElementById('musicMenu'),
             musicAudio = document.getElementById('musicAudio');
