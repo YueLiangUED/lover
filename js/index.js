@@ -460,6 +460,7 @@ $(function () {
                 musicMenu.className = 'music move';
             }, false);
         }
-        window.setTimeout(controlMusic, 1000);
+        //window.setTimeout(controlMusic, 1000);
+        controlMusic();
     }();
 });
