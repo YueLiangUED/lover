@@ -418,8 +418,11 @@ $(function () {
 
     //->MUSIC
     ~function () {
+        console.log(wx);
+        wx.ready(function () {
+            audioAutoPlay('musicAudio');
+        });
         function audioAutoPlay(id){
-
             var audio = document.getElementById(id),
                 play = function(){
                     audio.play();
@@ -434,6 +437,7 @@ $(function () {
             }, false);
             document.addEventListener("touchstart",play, false);
         }
+
         var musicMenu = document.getElementById('musicMenu'),
             musicAudio = document.getElementById('musicAudio');
 
@@ -449,7 +453,6 @@ $(function () {
 
         function controlMusic() {
             musicAudio.volume = 0.1;
-            audioAutoPlay('musicAudio');
             musicAudio.play();
             musicAudio.addEventListener('canplay', function () {
                 musicMenu.style.display = 'block';
