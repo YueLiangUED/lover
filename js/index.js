@@ -75,12 +75,30 @@ $(function () {
     $ljTab.on('click','li',function () {
         $(this).addClass('act');
     });
+    function titleAnimate() {
+        setTimeout(function () {
+            setTimeout(function () {
+                $title.css({
+                    transform: 'rotate(-10deg)'
+                },1000);
+            },1500);
+            $title.css({
+                transform: 'rotate(10deg)'
+            });
+        });
+        return setTimeout(function () {
+            $title.css({
+                transform: 'rotate(0deg)'
+            });
+        },2000);
+    }
     //首页开始按钮
     $starBtn.on('click',function () {
         $info.hide();
         $cgWrap.show();
         window.clearTimeout(timer1);
         timing();
+        titleAnimate();
     });
     //第一关倒计时
     var timing = function () {
@@ -260,6 +278,7 @@ $(function () {
         $title.addClass('act_2');
         $num.text(2);
         timing1();
+        titleAnimate();
     });
     //第二关 点击电视
     $tv.on('click',function () {
@@ -284,6 +303,7 @@ $(function () {
         $title.addClass('act_3');
         $num.text(3);
         timing2();
+        titleAnimate();
     });
     //第三关点击魔百盒
     $box.on('click',function () {
@@ -306,6 +326,7 @@ $(function () {
         $num.text(4);
         $lev4Bg.show();
         timing3();
+        titleAnimate();
     });
     //第四关点击摄像头
     $sxt.on('click',function () {
@@ -335,6 +356,7 @@ $(function () {
         hideTc_fail_4();
         $num.text(5);
         timing4();
+        titleAnimate();
     });
     //第五关点击门
     $door.on('click',function () {
@@ -353,8 +375,11 @@ $(function () {
     });
     //显示第一关成功弹窗
     function showTc_success_1() {
-        $('#tc_success_1').show();
-        showMask();
+        setTimeout(function () {
+            $('#tc_success_1').show();
+            showMask();
+        },2000);
+
     }
     //显示第一关失败弹窗
     function showTc_fail_1() {
@@ -363,8 +388,10 @@ $(function () {
     }
     //显示第二关成功弹窗
     function showTc_success_2() {
-        $('#tc_success_2').show();
-        showMask();
+        setTimeout(function () {
+            $('#tc_success_2').show();
+            showMask();
+        },2000);
     }
     //显示第二关失败弹窗
     function showTc_fail_2() {
@@ -373,8 +400,10 @@ $(function () {
     }
     //显示第三关成功弹窗
     function showTc_success_3() {
-        $('#tc_success_3').show();
-        showMask();
+        setTimeout(function () {
+            $('#tc_success_3').show();
+            showMask();
+        },2000);
     }
     //显示第三关失败弹窗
     function showTc_fail_3() {
@@ -383,8 +412,10 @@ $(function () {
     }
     //显示第四关成功弹窗
     function showTc_success_4() {
-        $('#tc_success_4').show();
-        showMask();
+        setTimeout(function () {
+            $('#tc_success_4').show();
+            showMask();
+        },2000);
     }
     //显示第四关失败弹窗
     function showTc_fail_4() {
