@@ -515,6 +515,125 @@ i{
     color: #0a0a0b;
 }
 
+
+/*活动规则页*/
+.hdgz,.myJp{
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    width: 7.5rem;
+    height: 12.06rem;
+    background-color: #feb6cf;
+}
+.hdgz>div:nth-child(1),.myJp>div:nth-child(1){
+    position: absolute;
+    overflow: scroll;
+    top: .92rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0 .44rem 1.8rem;
+    width: 6.8rem;
+    height: 10.56rem;
+    border-radius: .2rem;
+    background-color: #fffbe7;
+    z-index: 1;
+}
+.hdgz>div:nth-child(1) h2,.myJp>div:nth-child(1) h2{
+    font-size: .45rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.2rem;
+    color: #da4027;
+}
+.myJp>div:nth-child(1) h2{
+    color: #7cb6eb;
+}
+.hdgz>div:nth-child(1) p{
+    font-size: .24rem;
+    color: #333333;
+}
+.hdgz>div:nth-child(1) a,.myJp>div:nth-child(1) a{
+    position: absolute;
+    bottom: .59rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2.7rem;
+    height: .65rem;
+    font-size: .32rem;
+    text-align: center;
+    line-height: .65rem;
+    border-radius: .2rem;
+    color: #ffffff;
+    background-color: #7cb6eb;
+}
+.hdgz>div:nth-child(2),.myJp>div:nth-child(2){
+    position: absolute;
+    left: .1rem;
+    bottom: 0;
+    width: 5.48rem;
+    height: 1.22rem;
+    background: url("../images/guize_b.png") center no-repeat;
+    background-size: cover;
+}
+.hdgz>div:nth-child(3),.myJp>div:nth-child(3){
+    position: absolute;
+    top: .55rem;
+    left: .81rem;
+    width: .81rem;
+    height: .71rem;
+    background: url("../images/meigui_1.png") center no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.hdgz>div:nth-child(4),.myJp>div:nth-child(4){
+    position: absolute;
+    bottom: .71rem;
+    right: .26rem;
+    width: .59rem;
+    height: .64rem;
+    background: url("../images/meigui_2.png") center no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.myJp>div:nth-child(1) ul li{
+    margin: 0 auto .36rem;
+    box-sizing: border-box;
+    width: 5.32rem;
+    height: 1.39rem;
+    background: url("../images/lingjiang.png") center no-repeat;
+    background-size: cover;
+}
+.myJp>div:nth-child(1) ul li.act{
+    width: 5.4rem;
+    height: 1.41rem;
+    background: url("../images/lingjiang_act.png") center no-repeat;
+    background-size: cover;
+}
+.myJp>div:nth-child(1) ul li span{
+    display: block;
+    width: 3.2rem;
+    font-size: .86rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+.myJp>div:nth-child(1) ul li.act span{
+    color: #ebebeb;
+}
+.myJp>div:nth-child(1) ul li i{
+    display: block;
+    margin-top: -.15rem;
+    width: 3.2rem;
+    font-size: .2rem;
+    text-align: center;
+    color: #ffffff;
+}
+.myJp>div:nth-child(1) ul li.act i{
+    color: #ececec;
+}
 /*遮罩层*/
 .mask{
     position: absolute;
@@ -742,4 +861,120 @@ i{
     border: 2px solid #090909;
     border-radius: .2rem;
     background-color: #7cb6eb;
+}
+
+
+/*领取福利页样式*/
+.fuli{
+    display: none;
+    box-sizing: border-box;
+    margin: .12rem auto 0;
+    padding-top: .15rem;
+    width: 7.2rem;
+    height: 12.06rem;
+    border: 4px solid #090909;
+    background-color: #7cb6eb;
+}
+.fuli>div{
+    position: relative;
+    box-sizing: border-box;
+    margin-left: -4px;
+    width: 7rem;
+    height: 11.82rem;
+    border: 4px solid #090909;
+    background-color: #ffffff;
+}
+.fuli>div span{
+    position: absolute;
+}
+.fuli>div span:nth-child(1){
+    top: .1rem;
+    left: .1rem;
+    width: .43rem;
+    height: .43rem;
+    background: url("../images/fuli_1.png") center no-repeat;
+    background-size: cover;
+}
+.fuli>div span:nth-child(2){
+    top: .25rem;
+    right: .42rem;
+    width: 1.55rem;
+    height: .12rem;
+    background: url("../images/fuli_5.png") center no-repeat;
+    background-size: cover;
+}
+.fuli>div span:nth-child(3) {
+    left: .1rem;
+    bottom: .18rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url("../images/fuli_6.png") center no-repeat;
+    background-size: cover;
+}
+.fuli>div span:nth-child(4){
+    right: .1rem;
+    bottom: .18rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url("../images/fuli_7.png") center no-repeat;
+    background-size: cover;
+}
+.fuli>div span:nth-child(5){
+    top: .48rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    width: 6.06rem;
+    height: .66rem;
+    font-size: .36rem;
+    text-align: center;
+    line-height: .66rem;
+    color: #000000;
+    border: 2px solid #090909;
+    background-color: #7cb6eb;
+}
+.fuli>div span:nth-child(6),.fuli>div span:nth-child(8),.fuli>div span:nth-child(10){
+    width: 6.26rem;
+    height: 1.79rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.fuli>div span:nth-child(6){
+    top: 1.78rem;
+    background: url("../images/fuli_2.png") center no-repeat;
+    background-size: cover;
+}
+.fuli>div span:nth-child(8){
+    top: 4.82rem;
+    background: url("../images/fuli_3.png") center no-repeat;
+    background-size: cover;
+}
+.fuli>div span:nth-child(10){
+    top: 8rem;
+    background: url("../images/fuli_4.png") center no-repeat;
+    background-size: cover;
+}
+.fuli>div span:nth-child(7),.fuli>div span:nth-child(9),.fuli>div span:nth-child(11){
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2.7rem;
+    height: .65rem;
+    font-size: .32rem;
+    text-align: center;
+    line-height: .65rem;
+    color: #ffffff;
+    border-radius: .2rem;
+    background-color: #7cb6eb;
+}
+.fuli>div span:nth-child(7){
+    top: 3.9rem;
+}
+.fuli>div span:nth-child(9){
+    top: 7rem;
+}
+.fuli>div span:nth-child(11){
+    top: 10.1rem;
 }

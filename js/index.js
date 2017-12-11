@@ -16,6 +16,14 @@ $(function () {
         $cgWrap = $('.cgWrap'),
         $title = $('#title'),
         $time = $('#time'),
+        $hdgz = $('#hdgz'),
+        $gzPage = $('.hdgz'),
+        $gzBtn = $('#gzPageBtn'),
+        $lookBtn = $('#lookBtn'),
+        $myJp = $('.myJp'),
+        $jpBtn = $('#jpBtn'),
+        $ljTab = $('#ljTab'),
+        $fuli = $('.fuli'),
         $barInner = $('.barInner'),
         $starBtn = $('#starBtn'),
         $girl_1 = $('#girl_1'),
@@ -43,6 +51,30 @@ $(function () {
             });
         });
     },1000);
+    //首页活动规则
+    $hdgz.on('click',function () {
+        $info.hide();
+        $gzPage.show();
+    });
+    //活动规则页返回按钮
+    $gzBtn.on('click',function () {
+        $gzPage.hide();
+        $info.show();
+    });
+    //首页查看我的奖品按钮
+    $lookBtn.on('click',function () {
+        $info.hide();
+        $myJp.show();
+    });
+    //我的奖品页返回按钮
+    $jpBtn.on('click',function () {
+        $myJp.hide();
+        $info.show();
+    });
+    //我的奖品页领取奖励按钮
+    $ljTab.on('click','li',function () {
+        $(this).addClass('act');
+    });
     //首页开始按钮
     $starBtn.on('click',function () {
         $info.hide();
