@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+            <state relative-caret-position="192">
+              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="248" column="36" selection-start-line="248" selection-start-column="36" selection-end-line="248" selection-end-column="36" />
+            <state relative-caret-position="401">
+              <caret line="261" column="27" selection-start-line="261" selection-start-column="27" selection-end-line="261" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -327,12 +327,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512701889808</updated>
       <workItem from="1512701891691" duration="41084000" />
-      <workItem from="1512925682439" duration="25687000" />
+      <workItem from="1512925682439" duration="25834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66771000" />
+    <option name="totallyTimeSpent" value="66918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1232" height="777" extended-state="6" />
@@ -671,10 +671,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="261" column="27" selection-start-line="261" selection-start-column="27" selection-end-line="261" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        <state relative-caret-position="192">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -690,14 +698,6 @@
             <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="248" column="36" selection-start-line="248" selection-start-column="36" selection-end-line="248" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>

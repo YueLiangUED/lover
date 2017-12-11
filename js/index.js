@@ -258,7 +258,9 @@ $(function () {
         $barInner.width(100+"%");
         $barInner.css('background','#fef979');
         $barInner.show();
-        titleAnimate();
+        if(titleAnimate !== null){
+            titleAnimate();
+        }
     }
     //第一关 点击手表
     $watch.on('click',function () {
