@@ -76,21 +76,18 @@ $(function () {
         $(this).addClass('act');
     });
     function titleAnimate() {
-        setTimeout(function () {
-            setTimeout(function () {
-                $title.css({
-                    transform: 'rotate(-10deg)'
-                },1000);
-            },1500);
-            $title.css({
-                transform: 'rotate(10deg)'
+        $title.animate({
+            left: '10%',
+        },function () {
+            $title.animate({
+                left: '-18%'
+            },function () {
+                $title.animate({
+                    left: '-.23rem'
+                });
             });
         });
-        return setTimeout(function () {
-            $title.css({
-                transform: 'rotate(0deg)'
-            });
-        },2000);
+
     }
     //首页开始按钮
     $starBtn.on('click',function () {
@@ -249,6 +246,7 @@ $(function () {
                 window.clearInterval(timer6);
                 window.clearInterval(timer2_5);
                 i = 0;
+                titleAnimate = null;
                 timeInit();
                 flag = 5;
             }
@@ -260,10 +258,10 @@ $(function () {
         $barInner.width(100+"%");
         $barInner.css('background','#fef979');
         $barInner.show();
+        titleAnimate();
     }
     //第一关 点击手表
     $watch.on('click',function () {
-        flag = 1;
         $(this).hide();
         window.clearInterval(timer2_1);
         $girl_1.addClass('act');
@@ -278,12 +276,10 @@ $(function () {
         $title.addClass('act_2');
         $num.text(2);
         timing1();
-        titleAnimate();
     });
     //第二关 点击电视
     $tv.on('click',function () {
         if(flag === 1){
-            flag = 2;
             $openTv.show();
             window.clearInterval(timer2_2);
             var timer3 = setInterval(function () {
@@ -303,12 +299,10 @@ $(function () {
         $title.addClass('act_3');
         $num.text(3);
         timing2();
-        titleAnimate();
     });
     //第三关点击魔百盒
     $box.on('click',function () {
         if(flag === 2){
-            flag = 3;
             window.clearInterval(timer2_3);
             $openTv.hide();
             $tv.addClass('act');
@@ -326,12 +320,10 @@ $(function () {
         $num.text(4);
         $lev4Bg.show();
         timing3();
-        titleAnimate();
     });
     //第四关点击摄像头
     $sxt.on('click',function () {
         if (flag === 3){
-            flag = 4;
             $lev4.addClass('act');
             window.clearInterval(timer2_4);
             showTc_success_4();
@@ -356,7 +348,6 @@ $(function () {
         hideTc_fail_4();
         $num.text(5);
         timing4();
-        titleAnimate();
     });
     //第五关点击门
     $door.on('click',function () {
@@ -370,6 +361,7 @@ $(function () {
         window.clearInterval(timer5);
         window.clearInterval(timer6);
         window.clearInterval(timer2_5);
+        titleAnimate = null;
         timeInit();
         flag = 5;
     });
@@ -378,6 +370,7 @@ $(function () {
         setTimeout(function () {
             $('#tc_success_1').show();
             showMask();
+            flag = 1;
         },2000);
 
     }
@@ -391,6 +384,7 @@ $(function () {
         setTimeout(function () {
             $('#tc_success_2').show();
             showMask();
+            flag = 2;
         },2000);
     }
     //显示第二关失败弹窗
@@ -403,6 +397,7 @@ $(function () {
         setTimeout(function () {
             $('#tc_success_3').show();
             showMask();
+            flag = 3;
         },2000);
     }
     //显示第三关失败弹窗
@@ -415,6 +410,7 @@ $(function () {
         setTimeout(function () {
             $('#tc_success_4').show();
             showMask();
+            flag = 4;
         },2000);
     }
     //显示第四关失败弹窗
