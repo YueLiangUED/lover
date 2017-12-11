@@ -11,6 +11,9 @@
     <script src="js/imgLoader.js"></script>
     <script>
         imgLoader([
+            'images/firGirl.png',
+            'images/cloud.png',
+            'images/cloud_1.png',
             'audio/music.svg',
             'images/box_1.png',
             'images/door.png',
@@ -71,8 +74,8 @@
                 $('#fly').css('top','-3rem');
                 setTimeout(function () {
                     $('#fly').css('top','-2rem');
-                },500);
-            },1000);
+                },1000);
+            },2000);
             if (percentage == 1) {
                 $('#loader').remove();
                 $('#info').show();
