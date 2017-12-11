@@ -1,6 +1,61 @@
 html,body{
     font-family: "Microsoft YaHei";
 }
+/*加载页样式*/
+#loader{
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 70%;
+    width: 7.5rem;
+    height: 12.06rem;
+    background-color: #7cb6eb;
+}
+#loader>div:nth-child(1){
+    position: relative;
+    margin: 0 auto;
+    width: 3.3rem;
+    height: 1.6rem;
+    background: url("../images/cloud.png") center no-repeat;
+    background-size: cover;
+}
+#loader>div:nth-child(1) div{
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 3.01rem;
+    height: 3.55rem;
+    background: url("../images/firGirl.png") center no-repeat;
+    background-size: cover;
+}
+#loader>div:nth-child(2){
+    margin: .5rem auto;
+    font-size: .32rem;
+    color: #000000;
+    text-align: center;
+}
+#loader>div:nth-child(3){
+    margin: 0 auto;
+    width: 6.7rem;
+    height: .5rem;
+    border-radius: .5rem;
+    background-color: #ffffff;
+}
+#loader #loader__progress{
+    width: 0%;
+    height: .5rem;
+    border-radius: .5rem;
+    background: #8be3ca;
+}
+#loader>div:last-child{
+    position: absolute;
+    bottom: 0;
+    width: 7.5rem;
+    height: 1.5rem;
+    background: url("../images/cloud_1.png") center no-repeat;
+    background-size: cover;
+}
 section{
     width: 7.5rem;
     box-sizing: border-box;

@@ -11,7 +11,14 @@
 <body>
 <!--loading-->
 <div id="loader">
+    <div>
+        <div></div>
+    </div>
     <div id="loader_info"></div>
+    <div>
+        <div id="loader__progress"></div>
+    </div>
+    <div></div>
 </div>
 <!--MUSIC-->
 <div class="music" id="musicMenu">
@@ -282,9 +289,9 @@
         'images/xin_2.png'
     ], function (percentage) {
         var percentT = percentage * 100;
-        console.log(percentage);
+        //console.log(percentage);
         $('#loader_info').html('Loading ' + (parseInt(percentT)) + '%');
-        //$('#loader__progress')[0].style.width = percentT + '%';
+        $('#loader__progress')[0].style.width = percentT + '%';
         if (percentage == 1) {
             $('#loader').remove();
             $('#info').show();
