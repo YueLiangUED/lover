@@ -23,6 +23,7 @@
             'images/firPage_01.png',
             'images/firPage_02.png',
             'images/firPage_03.png',
+            'images/fenxiang.png',
             'images/floor.png',
             'images/guize_b.png',
             'images/meigui_1.png',
@@ -55,12 +56,13 @@
             'images/sxin_1.png',
             'images/sxin_2.png',
             'images/sxt_1.png',
-            'images/tc5_Bg.png',
             'images/tc_1_icon.png',
             'images/tc_2_icon.png',
             'images/tc_3_icon.png',
             'images/tc_4_icon.png',
+            'images/tc5_Bg.png',
             'images/tc_5Btn_1.png',
+            'images/tc_5Btn_2.png',
             'images/tc_5Title.png',
             'images/tc_btn.png',
             'images/tc_flower.png',
@@ -86,8 +88,8 @@
                 $('#fly').css('top','-3rem');
                 setTimeout(function () {
                     $('#fly').css('top','-2rem');
-                },1000);
-            },2000);
+                },500);
+            },800);
             if (percentage == 1) {
                 $('#loader').remove();
                 $('#info').show();
@@ -184,7 +186,14 @@
 <div class="hdgz">
     <div>
         <h2>活动规则</h2>
-        <p>1、次优惠券限购买京东自营图书品类下次优惠券限购买京东自营图书品类下次优惠券限购买京东自营图书品类下次优惠券限购买京东自营图书品类下</p>
+        <p><i>1</i>:活动时间：2月10-2月24日</p>
+        <p><i>2</i>:活动介绍：：活动期间，用户参与北京移动“宝爸宝妈出逃计划”活动，通过3关后可获得抽奖机会，用户分享至朋友圈/微信好友，可在参与游戏一次。</p>
+        <p><i>3</i>:流量奖品规则：分100M、200M、500M、1024M、2.14GB档位。(活动仅限北京移动用户参与，需用户授权北京移动手机营业厅).</p>
+        <h3>流量奖品规则：</h3>
+        <p><i>1</i>:流量领取后，7天内自动充入用户的微信关注并绑定手机号，充入后立即有效，有效期7天。</p>
+        <p><i>2</i>:获赠流量使用优先级高于祝套餐及可选包，仅限北京本地使用，用户领取的赠送流量无法共享，未使用的流量无法结转。</p>
+        <p><i>3</i>:处于保留期、保号期、挂失、停机、欠停、转品牌过渡期的号无法领取奖励</p>
+        <p><i>4</i>:物联网卡、46元本地流量专享套餐卡、4G超级日租卡套餐、神州行开心听、语音套餐卡等无法获得流量赠送。</p>
         <a id="gzPageBtn" href="javascript:void (0)">返回</a>
     </div>
     <div></div>
@@ -231,13 +240,21 @@
         <span>立即领取</span>
     </div>
 </div>
+<!--分享遮罩层-->
+<div class="fenxiang">
+    <span></span>
+    <span id="fxqr">确认</span>
+</div>
 <!--遮罩层-->
 <div class="mask" id="mask"></div>
 <!--第一关弹窗-->
 <!--成功-->
 <div class="tc success" id="tc_success_1">
     <div>
-        <div></div>
+        <div>
+            <p>解锁成功</p>
+            <p>恭喜你找到儿童手表，给宝宝带上，愉快地迎接下一关的挑战吧。</p>
+        </div>
         <div>
             <span></span>
             <span></span>
@@ -252,7 +269,10 @@
 <!--失败-->
 <div class="tc fail" id="tc_fail_1">
     <div>
-        <div class="act"></div>
+        <div class="act">
+            <p>解锁失败</p>
+            <p>没有找到儿童手表，就差点运气呢，下一关我们江湖再见~</p>
+        </div>
         <div class="act">
             <span></span>
             <span class="act"></span>
@@ -268,7 +288,10 @@
 <!--成功-->
 <div class="tc success" id="tc_success_2">
     <div>
-        <div></div>
+        <div>
+            <p>解锁成功</p>
+            <P>恭喜你成功开启咪咕电视，咪咕让孩子每天都有趣</P>
+        </div>
         <div>
             <span></span>
             <span></span>
@@ -283,7 +306,10 @@
 <!--失败-->
 <div class="tc fail" id="tc_fail_2">
     <div>
-        <div class="act"></div>
+        <div class="act">
+            <p>解锁失败</p>
+            <p>很遗憾你没能打开咪咕电视，别放弃，机会就在下一关呢</p>
+        </div>
         <div class="act">
             <span></span>
             <span class="act"></span>
@@ -299,7 +325,10 @@
 <!--成功-->
 <div class="tc success" id="tc_success_3">
     <div>
-        <div></div>
+        <div>
+            <p>解锁成功</p>
+            <p>恭喜你解锁魔百盒，千万/海量视频0卡顿，客厅也能尽享视听盛宴。</p>
+        </div>
         <div>
             <span></span>
             <span></span>
@@ -314,7 +343,10 @@
 <!--失败-->
 <div class="tc fail" id="tc_fail_3">
     <div>
-        <div class="act"></div>
+        <div class="act">
+            <p>解锁失败</p>
+            <p>很遗憾没有连线成功，下一关肯定难不倒你啦</p>
+        </div>
         <div class="act">
             <span></span>
             <span class="act"></span>
@@ -330,7 +362,10 @@
 <!--成功-->
 <div class="tc success" id="tc_success_4">
     <div>
-        <div></div>
+        <div>
+            <p>解锁成功</p>
+            <p>恭喜你找到和目摄像头，清晰夜视、异动监测，孩子动向尽在掌握。</p>
+        </div>
         <div>
             <span></span>
             <span></span>
@@ -345,7 +380,10 @@
 <!--失败-->
 <div class="tc fail" id="tc_fail_4">
     <div>
-        <div class="act"></div>
+        <div class="act">
+            <p>解锁失败</p>
+            <p>没找到和目摄像头，那也没关系，我们去抽奖吧，好运爱你哦。</p>
+        </div>
         <div class="act">
             <span></span>
             <span class="act"></span>
@@ -362,11 +400,13 @@
     <div></div>
     <div>
         <div>1GB</div>
-        <span></span>
+        <span id="tc5lqBtn"></span>
         <p>北京移动送您1张<span>1GB</span>流量券<br>
             祝您情人节快乐～</p>
+        <i>已获奖品可去我的奖品页面领取</i>
     </div>
-    <div>领取更多福利</div>
+    <div id="getMoreBtn">领取更多福利</div>
+    <div id="yqBtn">呼唤小伙伴</div>
 </div>
 </body>
 </html>

@@ -270,6 +270,7 @@ section#info footer>div:nth-child(3) div span{
     position: absolute;
     top: -.23rem;
     left: -.23rem;
+    transform: rotate(0deg);
     width: 7.35rem;
     height: 1.75rem;
     background: url("../images/title1-1.png") center no-repeat;
@@ -550,9 +551,20 @@ i{
 .myJp>div:nth-child(1) h2{
     color: #7cb6eb;
 }
+.hdgz>div:nth-child(1) h3{
+    font-size: .32rem;
+    line-height: .7rem;
+    font-weight: normal;
+    color: #e62222;
+}
 .hdgz>div:nth-child(1) p{
     font-size: .24rem;
+    line-height: 1.5em;
+    text-align: justify;
     color: #333333;
+}
+.hdgz>div:nth-child(1) p i{
+    color: #e62222;
 }
 .hdgz>div:nth-child(1) a,.myJp>div:nth-child(1) a{
     position: absolute;
@@ -676,6 +688,28 @@ i{
     border-bottom: 2px solid #090909;
     background-color: #fd97b3;
 }
+.tc>div:nth-child(1) div:nth-child(1) p:nth-child(1){
+    position: absolute;
+    top: 1.55rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: .3rem;
+    color: #ffffff;
+}
+.tc>div:nth-child(1) div:nth-child(1) p:nth-child(2){
+    position: absolute;
+    top: 2.1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 .28rem;
+    font-size: .24rem;
+    text-align: center;
+    line-height: 1.5em;
+    color: #ffffff;
+}
 .tc>div:nth-child(1) div:nth-child(1).act{
     background-color: #7cb6eb;
 }
@@ -781,7 +815,7 @@ i{
 .lev5Tc{
     display: none;
     position: fixed;
-    top: 10%;
+    top: 5%;
     left: 0;
     right: 0;
     margin: auto;
@@ -810,10 +844,9 @@ i{
     position: absolute;
     top: 1.15rem;
     left: 2.2rem;
-    box-sizing: border-box;
-    width: 2.72rem;
-    height: 1.08rem;
-    line-height: 1.08rem;
+    width: 2.5rem;
+    height: 1rem;
+    line-height: 1rem;
     font-size: .82rem;
     font-weight: bold;
     color: #000000;
@@ -833,6 +866,10 @@ i{
     background: url("../images/tc_5Btn_1.png") center no-repeat;
     background-size: cover;
 }
+.lev5Tc>div:nth-child(2) span:nth-child(2).act{
+    background: url("../images/tc_5Btn_2.png") center no-repeat;
+    background-size: cover;
+}
 .lev5Tc>div:nth-child(2) p:nth-child(3){
     position: absolute;
     bottom: .2rem;
@@ -849,20 +886,69 @@ i{
     font-weight: bold;
     color: #7cb6eb;
 }
+.lev5Tc>div:nth-child(2) i:nth-child(4){
+    position: absolute;
+    bottom: -.2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: .26rem;
+    color: #fffefe;
+}
 .lev5Tc>div:nth-child(3){
-    box-sizing: border-box;
-    margin: 0 auto;
-    width: 3.03rem;
-    height: .73rem;
+    margin: 0.5rem auto;
+    width: 3.01rem;
+    height: .71rem;
     font-size: .34rem;
     text-align: center;
-    line-height: .7rem;
+    line-height: .71rem;
     color: #000000;
     border: 2px solid #090909;
     border-radius: .2rem;
     background-color: #7cb6eb;
 }
+.lev5Tc>div:nth-child(4){
+    margin: -.2rem auto;
+    width: 1.9rem;
+    height: .53rem;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .53rem;
+    color: #000000;
+    border-radius: .2rem;
+    border: 2px solid #090909;
+    background-color: #feb6cf;
+}
 
+/*分享浮层样式*/
+.fenxiang{
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 14%;
+    z-index: 150;
+}
+.fenxiang span:nth-child(1){
+    display: block;
+    width: 5.95rem;
+    height: 6.53rem;
+    background: url("../images/fenxiang.png") center no-repeat;
+    background-size: cover;
+}
+.fenxiang span:nth-child(2){
+    margin: 1rem auto;
+    display: block;
+    width: 2.5rem;
+    height: .65rem;
+    font-size: .4rem;
+    text-align: center;
+    line-height: .65rem;
+    color: #333333;
+    border: 2px solid #090909;
+    border-radius: .2rem;
+    background-color: #feb6cf;
+}
 
 /*领取福利页样式*/
 .fuli{

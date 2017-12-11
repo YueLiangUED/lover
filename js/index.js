@@ -24,6 +24,9 @@ $(function () {
         $jpBtn = $('#jpBtn'),
         $ljTab = $('#ljTab'),
         $fuli = $('.fuli'),
+        $getMoreBtn = $('#getMoreBtn'),
+        $yqBtn = $('#yqBtn'),
+        $tc5lqBtn = $('#tc5lqBtn'),
         $barInner = $('.barInner'),
         $starBtn = $('#starBtn'),
         $girl_1 = $('#girl_1'),
@@ -75,18 +78,49 @@ $(function () {
     $ljTab.on('click','li',function () {
         $(this).addClass('act');
     });
+    //弹窗5立即领取按钮点击置灰
+    $tc5lqBtn.on('click',function () {
+        $(this).addClass('act');
+    });
+    //弹窗5领取更多福利按钮
+    $getMoreBtn.on('click',function () {
+        $cgWrap.hide();
+        $('.lev5Tc').hide();
+        hideMask();
+        $fuli.show();
+    });
+    //弹窗5分享按钮
+    $yqBtn.on('click',function () {
+        $('.lev5Tc').hide();
+        $('.fenxiang').show();
+    });
+    //分享确认按钮
+    $('#fxqr').on('click',function () {
+        $('.fenxiang').hide();
+        hideMask();
+        window.location.href = 'index.html';
+    });
     function titleAnimate() {
-        $title.animate({
-            left: '10%',
-        },function () {
-            $title.animate({
-                left: '-18%'
-            },function () {
-                $title.animate({
-                    left: '-.23rem'
-                });
+        setTimeout(function () {
+            $title.css({
+                transform: 'rotate(10deg)'
             });
-        });
+            setTimeout(function () {
+                $title.css({
+                    transform: 'rotate(0deg)'
+                });
+                setTimeout(function () {
+                    $title.css({
+                        transform: 'rotate(-10deg)'
+                    });
+                    setTimeout(function () {
+                        $title.css({
+                            transform: 'rotate(0deg)'
+                        });
+                    },500);
+                },500);
+            },500);
+        },500);
 
     }
     //首页开始按钮
@@ -282,6 +316,7 @@ $(function () {
     //第二关 点击电视
     $tv.on('click',function () {
         if(flag === 1){
+            flag = -1;
             $openTv.show();
             window.clearInterval(timer2_2);
             var timer3 = setInterval(function () {
@@ -311,6 +346,7 @@ $(function () {
             $(this).hide();
             $girl_1.addClass('act_1');
             showTc_success_3();
+            flag = 3;
         }
     });
     //第三关弹窗下一步按钮
@@ -326,6 +362,7 @@ $(function () {
     //第四关点击摄像头
     $sxt.on('click',function () {
         if (flag === 3){
+            flag = 4;
             $lev4.addClass('act');
             window.clearInterval(timer2_4);
             showTc_success_4();
@@ -353,19 +390,20 @@ $(function () {
     });
     //第五关点击门
     $door.on('click',function () {
-        $time.text(0);
-        $barInner.hide();
-        $lev4Bg.hide();
-        $lev4.hide();
-        $girl_1.hide();
-        $lev5Man.show();
-        showTc_5();
-        window.clearInterval(timer5);
-        window.clearInterval(timer6);
-        window.clearInterval(timer2_5);
-        titleAnimate = null;
-        timeInit();
-        flag = 5;
+        if(flag === 4){
+            flag = 5;
+            $time.text(0);
+            $barInner.hide();
+            $lev4Bg.hide();
+            $lev4.hide();
+            $girl_1.hide();
+            $lev5Man.show();
+            showTc_5();
+            window.clearInterval(timer5);
+            window.clearInterval(timer2_5);
+            titleAnimate = null;
+            timeInit();
+        }
     });
     //显示第一关成功弹窗
     function showTc_success_1() {
@@ -412,7 +450,6 @@ $(function () {
         setTimeout(function () {
             $('#tc_success_4').show();
             showMask();
-            flag = 4;
         },2000);
     }
     //显示第四关失败弹窗
