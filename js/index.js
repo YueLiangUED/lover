@@ -45,7 +45,9 @@ $(function () {
         $tc1NextBtn = $('.tc1NextBtn'),
         $tc2NextBtn = $('.tc2NextBtn'),
         $tc3NextBtn = $('.tc3NextBtn'),
-        $tc4Nextbtn = $('.tc4NextBtn');
+        $tc4Nextbtn = $('.tc4NextBtn'),
+        $ll = $('#ll'),
+        $ll_ = $('#ll_');
     //首页动画
     var timer1 = window.setTimeout(function () {
         $xin_1.fadeIn(function () {
@@ -405,6 +407,13 @@ $(function () {
             timeInit();
         }
     });
+
+    //第五关弹窗随机获取流量
+    function getLL() {
+        var arr = ['100M','200M','500M','1GB','2.14G'],
+            index = Math.floor((Math.random()*arr.length));
+        return arr[index];
+    }
     //显示第一关成功弹窗
     function showTc_success_1() {
         setTimeout(function () {
@@ -499,6 +508,8 @@ $(function () {
     }
     //显示第五关弹窗
     function showTc_5() {
+        $ll.text(getLL());
+        $ll_.text($ll.text());
         $('.lev5Tc').show();
         $('#mask').css('opacity','.7');
         showMask();

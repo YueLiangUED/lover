@@ -2,9 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0a21fd-4c6c-4643-8413-fc008338a6ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tc_5Btn_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/box_1.png" afterPath="$PROJECT_DIR$/images/box_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cloud.png" afterPath="$PROJECT_DIR$/images/cloud.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cloud_1.png" afterPath="$PROJECT_DIR$/images/cloud_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/door.png" afterPath="$PROJECT_DIR$/images/door.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fenxiang.png" afterPath="$PROJECT_DIR$/images/fenxiang.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/findWatch.png" afterPath="$PROJECT_DIR$/images/findWatch.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/find_mobaihe.png" afterPath="$PROJECT_DIR$/images/find_mobaihe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/firBtnBg.png" afterPath="$PROJECT_DIR$/images/firBtnBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/firGirl.png" afterPath="$PROJECT_DIR$/images/firGirl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/firPage_01.png" afterPath="$PROJECT_DIR$/images/firPage_01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/firPage_02.png" afterPath="$PROJECT_DIR$/images/firPage_02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/firPage_03.png" afterPath="$PROJECT_DIR$/images/firPage_03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/floor.png" afterPath="$PROJECT_DIR$/images/floor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fuli_1.png" afterPath="$PROJECT_DIR$/images/fuli_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fuli_2.png" afterPath="$PROJECT_DIR$/images/fuli_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fuli_3.png" afterPath="$PROJECT_DIR$/images/fuli_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fuli_4.png" afterPath="$PROJECT_DIR$/images/fuli_4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fuli_5.png" afterPath="$PROJECT_DIR$/images/fuli_5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fuli_6.png" afterPath="$PROJECT_DIR$/images/fuli_6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fuli_7.png" afterPath="$PROJECT_DIR$/images/fuli_7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/girl_1.png" afterPath="$PROJECT_DIR$/images/girl_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/girl_2.png" afterPath="$PROJECT_DIR$/images/girl_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/girl_3.png" afterPath="$PROJECT_DIR$/images/girl_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/guang_1.png" afterPath="$PROJECT_DIR$/images/guang_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/guang_2.png" afterPath="$PROJECT_DIR$/images/guang_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/guize_b.png" afterPath="$PROJECT_DIR$/images/guize_b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/innerBg.png" afterPath="$PROJECT_DIR$/images/innerBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lev_4_1.png" afterPath="$PROJECT_DIR$/images/lev_4_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lev_4_1_act.png" afterPath="$PROJECT_DIR$/images/lev_4_1_act.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lev_4_bg.png" afterPath="$PROJECT_DIR$/images/lev_4_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lingjiang.png" afterPath="$PROJECT_DIR$/images/lingjiang.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lingjiang_act.png" afterPath="$PROJECT_DIR$/images/lingjiang_act.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/man.png" afterPath="$PROJECT_DIR$/images/man.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/meigui_1.png" afterPath="$PROJECT_DIR$/images/meigui_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/meigui_2.png" afterPath="$PROJECT_DIR$/images/meigui_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/open_tv_1.png" afterPath="$PROJECT_DIR$/images/open_tv_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/open_tv_2.png" afterPath="$PROJECT_DIR$/images/open_tv_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/photo.png" afterPath="$PROJECT_DIR$/images/photo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/repeatBg.png" afterPath="$PROJECT_DIR$/images/repeatBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/snow.png" afterPath="$PROJECT_DIR$/images/snow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sofa.png" afterPath="$PROJECT_DIR$/images/sofa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sxin_1.png" afterPath="$PROJECT_DIR$/images/sxin_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sxin_2.png" afterPath="$PROJECT_DIR$/images/sxin_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sxt_1.png" afterPath="$PROJECT_DIR$/images/sxt_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc5_Bg.png" afterPath="$PROJECT_DIR$/images/tc5_Bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tcStar.png" afterPath="$PROJECT_DIR$/images/tcStar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tcTitle_1.png" afterPath="$PROJECT_DIR$/images/tcTitle_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tcTitle_2.png" afterPath="$PROJECT_DIR$/images/tcTitle_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_1_icon.png" afterPath="$PROJECT_DIR$/images/tc_1_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_2_icon.png" afterPath="$PROJECT_DIR$/images/tc_2_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_3_icon.png" afterPath="$PROJECT_DIR$/images/tc_3_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_4_icon.png" afterPath="$PROJECT_DIR$/images/tc_4_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_5Btn_1.png" afterPath="$PROJECT_DIR$/images/tc_5Btn_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_5Btn_2.png" afterPath="$PROJECT_DIR$/images/tc_5Btn_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_5Title.png" afterPath="$PROJECT_DIR$/images/tc_5Title.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_btn.png" afterPath="$PROJECT_DIR$/images/tc_btn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tc_flower.png" afterPath="$PROJECT_DIR$/images/tc_flower.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/title1-1.png" afterPath="$PROJECT_DIR$/images/title1-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/title2-1.png" afterPath="$PROJECT_DIR$/images/title2-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/title3-1.png" afterPath="$PROJECT_DIR$/images/title3-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/title4-1.png" afterPath="$PROJECT_DIR$/images/title4-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/title5-1.png" afterPath="$PROJECT_DIR$/images/title5-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tv.png" afterPath="$PROJECT_DIR$/images/tv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tv_act.png" afterPath="$PROJECT_DIR$/images/tv_act.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/watch.png" afterPath="$PROJECT_DIR$/images/watch.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/xin.png" afterPath="$PROJECT_DIR$/images/xin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/xin_1.png" afterPath="$PROJECT_DIR$/images/xin_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/xin_2.png" afterPath="$PROJECT_DIR$/images/xin_2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
@@ -27,11 +93,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="405" column="29" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
+            <state relative-caret-position="2061">
+              <caret line="403" column="32" selection-start-line="403" selection-start-column="32" selection-end-line="403" selection-end-column="32" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -42,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+            <state relative-caret-position="293">
+              <caret line="412" column="52" selection-start-line="412" selection-start-column="52" selection-end-line="412" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -311,18 +377,18 @@
       <option name="presentableId" value="Default" />
       <updated>1512701889808</updated>
       <workItem from="1512701891691" duration="41084000" />
-      <workItem from="1512925682439" duration="39312000" />
+      <workItem from="1512925682439" duration="40689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80396000" />
+    <option name="totallyTimeSpent" value="81773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1232" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16267547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16267547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -673,24 +739,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="412" column="52" selection-start-line="412" selection-start-column="52" selection-end-line="412" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="405" column="29" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
+        <state relative-caret-position="2061">
+          <caret line="403" column="32" selection-start-line="403" selection-start-column="32" selection-end-line="403" selection-end-column="32" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
